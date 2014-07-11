@@ -39,6 +39,16 @@ import (
 )
 
 // We declare a global variable "m". The type is a sync.RWMutex (an RWMutex in the sync package)
+//
+// We need to protect our cache from concurrent writes, since we will be serving it through
+// HTTP. Every request is served in its own goroutine.
+//
+// If you want to see where that happens, see the http.Server.Serve() method:
+//
+//    func (srv *Server) Serve(l net.Listener) error {
+//        ...
+//        go c.serve()
+//    }
 var m sync.RWMutex
 
 // The cache. We will use a map (http://golang.org/ref/spec#Map_types)
