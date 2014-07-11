@@ -1,9 +1,13 @@
+package main
+
+// package main
+//
 // The package clause (http://golang.org/ref/spec#Package_clause)
 // "main" indicates that this file is a command and will generate an executable
 // binary.
+//
 // Take a look at http://golang.org/doc/code.html for an introduction on
 // "How to Write Go Code"
-package main
 
 // The import declaration (http://golang.org/ref/spec#Import_declarations)
 // This is in the multiline format.
