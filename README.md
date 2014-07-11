@@ -3,6 +3,8 @@ plaincache
 
 A very simple in-memory cache with a RESTful API
 
+Install with `go get github.com/gomicroprojects/plaincache`
+
 ## The idea
 
 * This will be a very simple and limited in-memory cache service. 
@@ -25,7 +27,7 @@ The whole path will act as the key.
 
 ## Starting
 
-Start with plaincache.go
+Start with [plaincache.go](plaincache.go)
 
 ## www.gomicroprojects.com
 
