@@ -31,4 +31,4 @@ Start with [plaincache.go](plaincache.go)
 
 ## www.gomicroprojects.com
 
-This is a project for http://www.gomicroprojects.com
+[The corresponding blog post](http://www.gomicroprojects.com/2014/07/plaincache-very-basic-in-memory-cache.html)
